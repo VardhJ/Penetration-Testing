@@ -1,0 +1,8 @@
+Use hunter.io for email-lists of companies/websites
+Use breach parse from adams' github to find 44 GB of stolen users+pass
+Do a password spray, basically trying different passwords for the stolen users
+
+Use theharvester to find out about basic data(domain search)
+	hunter pulled down 400 mails at once however harvester gave 3
+	root@kali:~# theharvester -d tesla.com -l 500 -b google
+

@@ -1,0 +1,7 @@
+USE SUBLIST3R : to find subdomains (installable on kali)
+USE crt.sh : website to list subdomains works perfectly
+
+
+owasp amass from github : takes a long time to configure, finds subdomains
+
+tomnomnom probe : to check if subdomains are alive or not

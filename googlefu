@@ -1,0 +1,5 @@
+Google Fu (skills of google)
+
+site:tesla.com  :  shows results only with tesla.com	
+site:tesla.com -www  :  shows results without www
+site:tesla.com filetype:docx : shows files with filetype
