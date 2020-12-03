@@ -1,0 +1,7 @@
+REQUEST HEADERS
+
+Host : Indicates desired host handling request
+Accept : Indicates what MIME types are accepted by client
+Cookie : passes cookie data to server
+Referer : Page leading to the request
+Authorization : Used for 'basic auth' pages. ( username:password )
