@@ -1,0 +1,18 @@
+SCANNING 
+Install Kioptrix : download vulnerable machines
+
+
+
+TO FIND HOSTS ON YOUR CONNECTION:
+
+
+netdiscover -r 192.168.21.0/24
+arp-scan -l
+
+
+STEALTH SCANNING(nmap) : It does the SYN(wanna connect with the port)----SYNACK(yes open)----RST(kidding haha; resets)
+
+nmap -T4 -p- -A <ip> :   T4 is the speed(0-5), "-p-" means scan all ports(without this it scans top 1000 ports),
+		         "-p 80" : specific, "-A" : scan all of it and give all info. 
+
+nmap -T4 -sU -p <ip> :  sU for UDP scan, takes a lot of time so use only specific ports. 
