@@ -1,7 +1,24 @@
-REQUEST HEADERS
+HTTP REQUEST HEADERS AND CODES
 
 Host : Indicates desired host handling request
 Accept : Indicates what MIME types are accepted by client
 Cookie : passes cookie data to server
 Referer : Page leading to the request
 Authorization : Used for 'basic auth' pages. ( username:password )
+
+HTTP Status Codes:
+
+1xx : Informational (request received/processing)
+2xx : Success (Successfully received)
+3xx : Redirect
+4xx : Client error
+5xx : Server eroor
+
+200 : OK
+201 : OK created
+301 : Moved to new URL
+304 : Not defined
+400 : Bad request
+401 : Unauthorized
+404 : Not found
+500 : Internal server error
